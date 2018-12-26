@@ -128,7 +128,7 @@ public class CommerceService {
 				for (int j = 0; j < intSize2; j++) {
 					if (ioList.get(j).getStrCode().equals(goodList.get(i).getStrCode())) {
 						pw.print(ioList.get(j).getStrDate() + ":" + ioList.get(j).getStrIO() + ":"
-								+ ioList.get(j).getIntQuan() + ":" + goodList.get(i).getStrGname());
+								+ ioList.get(j).getStrCode() + ":" + goodList.get(i).getStrGname());
 
 						if (ioList.get(j).getStrIO().equals("매입")) {
 							pw.println(":" + goodList.get(i).getIntIprice() + ":" + ioList.get(j).getIntQuan() + ":"
