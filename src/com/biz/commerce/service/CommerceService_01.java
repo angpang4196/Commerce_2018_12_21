@@ -100,7 +100,7 @@ public class CommerceService_01 {
 			}
 
 			String s = iv.getStrDate() + ":" + strIOTag + ":" + iv.getStrCode() + ":" + v.getP_name() + ":"
-					+ iv.getIntPrice() + ":" + (intIprice * Integer.valueOf(iv.getIntQuan())) + ":"
+					+ iv.getIntPrice() + ":" + iv.getIntQuan() + ":" + (intIprice * Integer.valueOf(iv.getIntQuan())) + ":"
 					+ (intOprice * Integer.valueOf(iv.getIntQuan()));
 
 			sList.add(s);
