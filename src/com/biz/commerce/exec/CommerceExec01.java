@@ -53,10 +53,16 @@ public class CommerceExec01 {
 		/*
 		 * cs.pView() method를 호출해서 pList에 저장되어 있는 정보를 확인
 		 */
-//		cs.pViewe();
+//		cs.pView();
 
+		/*
+		 * 상품코드를 비교해 일치하면 결과값형식으로 만들어 문자열LIST에 저장하는 method
+		 */
 		cs.viewIoInfo2();
 		
+		/*
+		 * viewInfo2() method에서 sList에 저장한 문자열들을 지정해준 파일에 저장시키는 method
+		 */
 		cs.makeString();
 		
 
